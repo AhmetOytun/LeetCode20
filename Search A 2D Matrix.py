@@ -14,7 +14,7 @@ class Solution:
                     r=mid-1
                 else:
                     l=mid+1
-        # optimize this part
+    # optimize this part
         for num in matrix:
             if bs(Solution,num,target):
                 return True
