@@ -15,4 +15,5 @@ class Solution:
             if dic[y]>length:
                 sol.append(y)
         return sol
+print(Solution.majorityElement(Solution,[3,2,3]))
 
