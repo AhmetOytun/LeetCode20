@@ -1,4 +1,4 @@
-int search(int* nums, int numsSize, int target){
+ int search(int* nums, int numsSize, int target){
     int l=0,h=numsSize-1,m;
     while (l<=h){
         m=(h+l)/2;
