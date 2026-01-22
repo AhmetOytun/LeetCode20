@@ -1,0 +1,8 @@
+from typing import List
+
+def minimumPairRemoval(nums: List[int]) -> int:
+    res = 0
+    return res
+
+
+print(minimumPairRemoval([5,2,3,1]))
